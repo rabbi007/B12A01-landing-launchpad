@@ -37,7 +37,6 @@
   line-height: 1.5;
   letter-spacing: 0;
   color: #4e47ff;
-  cursor: pointer;
 }
 
 /* Banner Section -------------------------------------------------- */
@@ -120,7 +119,7 @@
   font-weight: bold;
   font-size: 16px;
   border-radius: 10px;
-
+  cursor: pointer;
 }
 
 .action-btn:hover {
@@ -155,9 +154,9 @@
  }
 
 .text-highlight {
-  font-family: Verdana;
+  font-family: "Inter", sans-serif;
   color: blueviolet;
-  font-size: 70px;
+  font-size: 80px;
   font-weight: bold;
 }
 
@@ -178,8 +177,9 @@
 
 .form-section {
   display:grid;
-  font-family: sans-serif;
-  font-weight: bold;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: normal;
   align-items: center;
   width: 497px;
   height: 490px;
@@ -193,6 +193,7 @@
   font-weight: bold;
   font-size: 16px;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .lgit-btn:hover {
@@ -201,11 +202,23 @@
   transform: translateY(-2px);
 }
 
+.footer-title {
+  font-family: "Inter", sans-serif;
+  color: blueviolet;
+  font-size: 100px;
+  font-weight: bold;
+  text-align: center;
+}
+.footer-sub-title {
+  color: #8987A1;
+  text-align: center;
+}
 
-  /* display:grid; */
-  /* display: flex; */
-  /* background-position: center;  */
-  /* align-items: center; */
-  /* justify-content: space-between; */
-  /* position: relative; */
-  /* background-repeat: no-repeat; */
+.footer-links {
+  color: #8987A1;
+  display: flex;
+  gap: 30px; /* space between links */
+  justify-content: center; /* centers the links */
+}
+
+
