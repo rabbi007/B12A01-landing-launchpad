@@ -160,6 +160,54 @@
   font-weight: bold;
 }
 
+/* Bonus Section (Ready to focus better) -------------------------------------------------- */
+
+.bonus-section {
+  width: 1140px; 
+  height: 650px;
+  color: #252432;
+  margin: 0 auto;
+  height: fit-content;
+  text-align: center;
+  align-items: center center;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  }
+
+.bonus-img { border-radius: 10px; }
+
+.bonus-title {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.bonus-section p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.bonus-btn {
+  width: 150px;
+  height: 40px;
+  background-color: #4E47FF;
+  color: #FFFFFF;
+  font-weight: normal;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.bonus-btn:hover {
+  background-color: #3e38e0;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+
 /* Let’s Get In Touch Section -------------------------------------------------- */
 
 .lgit-section {
@@ -171,7 +219,7 @@
 }
 
 .lgit-title {
-  font-size: 70px;
+  font-size: 60px;
   font-weight: bold;
 }
 
@@ -286,7 +334,7 @@
 .footer-title {
   font-family: "Inter", sans-serif;
   color: blueviolet;
-  font-size: 100px;
+  font-size: 80px;
   font-weight: bolder;
   text-align: center;
 }
