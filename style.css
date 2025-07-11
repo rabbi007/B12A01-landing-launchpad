@@ -13,7 +13,7 @@
 .header-section {  
   width: 100%;
   height: 100vh;
-  background-image: url("/Assets/Hero-bg.png");
+  background-image: url("./assets/Hero-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -91,7 +91,7 @@
 }
 
 .action-image {
-  border-radius: 10px;
+  border-radius: 30px;
   width: 403px;
   height: 328px;
 }
@@ -128,3 +128,43 @@
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
   transform: translateY(-2px);
 }
+
+
+/* Productive Users Section */
+
+.productive-section {
+  width: 1140px; 
+  height: 306px;
+  color: #252432;
+  background-color: #4E47FF1A; /*rgba(78, 71, 255, 0.1); */
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.productive-title {
+  text-align: center;
+  padding-block: 50px;
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.productive-sub-title {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+ }
+
+.text-highlight {
+  font-family: Verdana;
+  color: blueviolet;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+
+  /* display: flex; */
+  /* background-position: center;  */
+  /* align-items: center; */
+  /* justify-content: space-between; */
+  /* position: relative; */
+  /* background-repeat: no-repeat; */
